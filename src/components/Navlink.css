@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+.navlink {
+  background-color: rgb(36, 181, 248);
+}
+.navlink__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item1,
+.item2 {
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+.item1:hover,
+.item2:hover {
+  color: white;
+}

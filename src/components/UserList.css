@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+.userlist__mainheading {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(0, 0, 145);
+  margin: 20px;
+}
+.userlist__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.userlist__formcontent {
+  display: flex;
+  flex-direction: column;
+}
+.userlist__formlogo {
+  font-size: 40px;
+}
+.userlist__formcontent input,
+.userlist__formdescription {
+  font-family: 'Poppins';
+  font-weight: 400;
+  resize: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  outline: none;
+  background-color: rgb(250, 246, 216);
+}
+
+.userlist__cardwrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.userlist__card {
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.24);
+}
+.userlist__image {
+  display: flex;
+}
+.userlist__cardcheck i {
+  display: inline-block;
+  font-size: 50px;
+  background-color: rgb(0, 174, 255);
+  color: white;
+  margin-left: -70px;
+}
+.userlist__image img {
+  object-fit: contain;
+  width: 250px;
+  height: 250px;
+  z-index: -1;
+}
+.userlist__name {
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(36, 181, 248);
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.userlist__buttons {
+  text-align: center;
+}
+.userlist__buttons Button {
+  margin: 20px;
+}
+@media (max-width: 868px) {
+  .userlist__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  .userlist__formcontent {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+  }
+  .userlist__formlogo {
+    font-size: 25px;
+  }
+  .userlist__formcontent input,
+  .userlist__formdescription {
+    font-family: 'Poppins';
+    font-weight: 400;
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    outline: none;
+    background-color: rgb(250, 246, 216);
+  }
+}

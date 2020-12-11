@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+.usergroup__cardwrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.usergroup__card {
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.24);
+}
+.usergroup__image img {
+  object-fit: contain;
+  width: 250px;
+  height: 250px;
+}
+.usergroup__name {
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(36, 181, 248);
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.usergroup__form {
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+  background-color: rgb(167, 255, 239);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.fa {
+  display: inline-block;
+  padding: 10px;
+}
+.usergroup__formname {
+  display: flex;
+  margin: 10px;
+  background-color: rgb(42, 255, 255);
+  padding: 10px;
+  border-radius: 20px;
+}
+.usergroup__formdescription {
+  display: flex;
+  background-color: rgb(42, 255, 255);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.usergroup__formname h2 {
+  margin-right: 60px;
+}
+.field {
+  font-family: 'Poppins';
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+@media (max-width: 540px) {
+  .usergroup__form {
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+    background-color: rgb(167, 255, 239);
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 300px;
+  }
+  .usergroup__formdescription {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .field {
+    font-family: 'Poppins';
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  .usergroup__formdescription div {
+    padding-top: 10px;
+  }
+}
