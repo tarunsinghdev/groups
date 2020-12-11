@@ -32,7 +32,7 @@
 .usergroup__form {
   display: block;
   margin: 20px auto;
-  width: 500px;
+  width: 600px;
   background-color: rgb(167, 255, 239);
   border: 1px solid black;
   border-radius: 20px;
@@ -60,8 +60,9 @@
 }
 .field {
   font-family: 'Poppins';
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 40px;
+  padding-top: 4px;
 }
 
 @media (max-width: 540px) {
@@ -84,8 +85,9 @@
   }
   .field {
     font-family: 'Poppins';
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 0px;
+    padding-top: 4px;
   }
   .usergroup__formdescription div {
     padding-top: 10px;
